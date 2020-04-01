@@ -1,7 +1,8 @@
 <template>
   <div>
     <h1>Events Listing</h1>
-    <EventCard/>
+    <EventCard title="Park Cleanup"/>
+    <EventCard title="Room Tidy up"/>
   </div>
 </template>
 
