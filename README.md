@@ -30,3 +30,7 @@ npm i -g json-server
 
 json-server --watch db.json
 ```
+
+###
+
+In a component method, a mutation can be commited but it's better to dispatch an action that will commit a mutation.
