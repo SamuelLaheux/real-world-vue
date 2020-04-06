@@ -73,3 +73,8 @@ export default {
   getters: { ... }
 }
 ```
+
+#### mutations
+
+Mutations should not be called from other Vuex Modules.
+Mutations should only be called from Actions inside the current Module.

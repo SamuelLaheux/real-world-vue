@@ -27,7 +27,7 @@ export default {
     }
   },
   created() {
-    this.$store.dispatch('fetchEvents', {
+    this.$store.dispatch('event/fetchEvents', {
       perPage: this.perPage,
       page: this.page
     })
